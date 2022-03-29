@@ -339,6 +339,205 @@ body {
   background-color: #f2f2f2;
 }
 
+/* main------------------------------------------ */
+
+.main__blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 34px 0 66px 0;
+}
+
+.main__categoria {
+  width: 186px;
+  margin-bottom: 30px;
+}
+
+.main__title {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #151515;
+}
+
+.main__title_h3 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #151515;
+  margin-bottom: 16px;
+}
+
+.main__banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 31px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.links__item-link {
+  margin-bottom: 12px;
+}
+
+.links__item-link > a {
+  color: #6A983C;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  font-family: "Open Sans", "Times New Roman", sans-serif;
+}
+
+.links__button {
+  display: inline-block;
+  margin-top: 32px;
+  padding: 12.5px 38px 12.5px 16px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  color: #151515;
+  background: #F5F5F5 url("../img/ic-chevron-right.svg") no-repeat 90%;
+}
+
+.banner__item {
+  width: 420px;
+  height: 280px;
+  background: url("../img/Rectangle 26.png");
+  border-radius: 12px;
+  position: relative;
+}
+
+.banner__sub-text_green {
+  margin: 48px 0 8px 33px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: #6A983C;
+}
+
+.banner__title {
+  margin-left: 33px;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #151515;
+}
+
+.banner__button {
+  position: absolute;
+  left: 32px;
+  bottom: 32px;
+  padding: 12px 38px 12px 16px;
+  border: 2px solid #92C064;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  text-decoration: none;
+  color: #151515;
+  background: url("../img/ic-chevron-right-green.svg") no-repeat 90%;
+}
+
+.product__item {
+  width: 269px;
+  height: 323px;
+  padding: 16px;
+  border-radius: 12px;
+  border: 1px solid #D1D1D1;
+  position: relative;
+}
+
+.product__img {
+  height: 180px;
+  width: 237px;
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+
+.product__title {
+  margin-bottom: 4px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  font-style: normal;
+}
+
+.product__sub-text {
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  font-family: "Open Sans", "Times New Roman", sans-serif;
+}
+
+.product__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.product__price {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.product__button {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  text-decoration: none;
+  color: #FFF;
+  background: #6A983C;
+  padding: 6.5px 12px;
+  border-radius: 12px;
+  border: 2px solid #46760A;
+}
+
+.current__percent {
+  position: absolute;
+  left: 28px;
+  top: 28px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: #6A983C;
+  border-radius: 12px;
+  background: #F4F8EC;
+}
+
+.current__old {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: #A9A9A9;
+  text-decoration: line-through;
+}
+
 /* footer------------------------------------------ */
 
 .footer__info {
@@ -398,3 +597,5 @@ body {
   line-height: 19px;
   color: #6A983C;
 }
+
+.webp .banner__item{ background: url("../img/Rectangle 26.png"); }
