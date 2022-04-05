@@ -334,9 +334,12 @@ body {
 
 .nav .select__item {
   cursor: pointer;
+  display: block;
   font-size: 16px;
   line-height: 24px;
   padding: 8px;
+  text-decoration: none;
+  color: #151515;
 }
 
 .nav .select__item:hover {

@@ -61,4 +61,16 @@ document.addEventListener('DOMContentLoaded', function() { // Аналог $(doc
         document.querySelector('#scroll-right').addEventListener('click', slide(slider, 200, 300));
         document.querySelector('#scroll-left').addEventListener('click', slide(slider, -200, 300));
     })()
-})
+});
+// Слайдер цены________________
+let slider = document.getElementById('sliderFilter');
+
+noUiSlider.create(slider, {
+    start: [20, 80],
+    connect: true,
+    step: 1,
+    range: {
+        'min': 0,
+        'max': 100
+    }
+});
